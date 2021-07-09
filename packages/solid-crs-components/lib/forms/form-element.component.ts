@@ -91,7 +91,7 @@ export class FormElementComponent<T> extends RxLitElement {
    * Timeout to use when debouncing input.
    */
   @property({ type: Number })
-  public debounceTimeout = 500;
+  public debounceTimeout = 1000;
 
   /**
    * The element's data.
